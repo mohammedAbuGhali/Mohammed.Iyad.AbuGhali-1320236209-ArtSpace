@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="300"
+    android:viewportHeight="300">
+    <!-- The Starry Night Sky -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M0,0h300v300h-300z" />
+    <!-- Swirling Sky Patterns -->
+    <path
+        android:fillColor="#3949AB"
+        android:pathData="M0,50 Q75,120 150,50 Q225,0 300,50 L300,180 Q225,100 150,180 Q75,250 0,180 Z" />
+    <path
+        android:fillColor="#7986CB"
+        android:pathData="M30,30 Q100,90 180,30 Q240,-10 300,30 L300,80 Q220,20 160,80 Q80,130 30,80 Z" />
+    <!-- Glowing Crescent Moon -->
+    <path
+        android:fillColor="#FFEE58"
+        android:pathData="M240,40 C270,40 280,70 280,70 C260,65 245,80 245,100 C245,120 260,135 280,130 C280,130 270,160 240,160 C207,160 180,133 180,100 C180,67 207,40 240,40 Z" />
+    <!-- Glowing Stars -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M50,40 A15,15 0 1 0 50,70 A15,15 0 1 0 50,40 Z M120,80 A12,12 0 1 0 120,104 A12,12 0 1 0 120,80 Z M190,30 A18,18 0 1 0 190,66 A18,18 0 1 0 190,30 Z M80,130 A10,10 0 1 0 80,150 A10,10 0 1 0 80,130 Z" />
+    <!-- Cypress Tree Silhouette -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M30,300 C20,250 40,200 35,150 C30,100 55,80 60,70 C65,80 90,120 80,170 C70,220 90,260 80,300 Z" />
+    <!-- Village Horizon & Hills -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M0,220 Q75,200 150,220 Q225,240 300,210 L300,300 L0,300 Z" />
+    <!-- Church Steeple Silhouette -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M180,250 L180,180 L185,180 L185,250 Z M175,200 L190,200 L182,160 Z" />
+</vector>

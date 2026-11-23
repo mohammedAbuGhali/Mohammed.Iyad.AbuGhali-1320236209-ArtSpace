@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="300"
+    android:viewportHeight="300">
+    <!-- The Scream Expressionist Sky -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M0,0h300v160h-300z" />
+    <!-- Flaming Sky Waves -->
+    <path
+        android:fillColor="#F57C00"
+        android:pathData="M0,30 Q75,60 150,30 Q225,0 300,30 L300,100 Q225,70 150,100 Q75,130 0,100 Z" />
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M0,70 Q75,100 150,70 Q225,40 300,70 L300,130 Q225,100 150,130 Q75,160 0,130 Z" />
+    <!-- Fjord Blue Water -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M0,140 Q150,120 300,160 L300,240 L0,240 Z" />
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M0,170 Q150,150 300,190 L300,240 L0,240 Z" />
+    <!-- Wooden Bridge Perspective -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M0,180 L200,300 L0,300 Z" />
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M0,190 L180,300 L0,300 Z"
+        android:strokeWidth="3"
+        android:strokeColor="#212121" />
+    <!-- Screaming Figure -->
+    <!-- Body -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M110,220 C100,240 100,270 90,300 L160,300 C150,270 150,240 140,220 Z" />
+    <!-- Agonized Head Contour -->
+    <path
+        android:fillColor="#FFF176"
+        android:pathData="M110,180 C100,190 100,215 125,220 C150,220 150,190 140,180 C140,160 110,160 110,180 Z" />
+    <!-- Open Screaming Mouth -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M120,198 C120,212 130,212 130,198 C130,190 120,190 120,198 Z" />
+    <!-- Wide Eyes -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M114,180 A3,3 0 1 0 114,186 A3,3 0 1 0 114,180 Z M130,180 A3,3 0 1 0 130,186 A3,3 0 1 0 130,180 Z" />
+    <!-- Hands Clasping Head -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M102,185 Q95,200 108,215 M148,185 Q155,200 142,215"
+        android:strokeWidth="4"
+        android:strokeColor="#FFE082" />
+</vector>

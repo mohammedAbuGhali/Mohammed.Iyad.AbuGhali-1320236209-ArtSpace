@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="400dp"
+    android:viewportWidth="300"
+    android:viewportHeight="400">
+    <!-- Background Frame Canvas -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M0,0h300v400h-300z" />
+    <!-- Golden Inner Canvas -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M15,15h270v370h-270z" />
+    <!-- Renaissance Landscape Horizon -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M15,220 Q150,180 285,220 L285,385 L15,385 Z" />
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M15,250 Q100,210 285,260 L285,385 L15,385 Z" />
+    <!-- Mona Lisa Portrait Silhouette -->
+    <!-- Head & Veil -->
+    <path
+        android:fillColor="#D7CCC8"
+        android:pathData="M150,80 C110,80 110,160 110,160 C110,210 120,240 100,320 L200,320 C180,240 190,210 190,160 C190,160 190,80 150,80 Z" />
+    <!-- Dark Veil & Dress -->
+    <path
+        android:fillColor="#1B1B1B"
+        android:pathData="M150,75 C100,75 95,150 90,320 L210,320 C205,150 200,75 150,75 Z" />
+    <!-- Face Contour -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M130,110 Q150,160 170,110 C170,90 130,90 130,110 Z" />
+    <!-- Famous Enigmatic Smile Curve -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M142,132 Q150,137 158,132"
+        android:strokeWidth="2"
+        android:strokeColor="#5D4037" />
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M138,120 Q144,117 150,120 Q156,117 162,120"
+        android:strokeWidth="2"
+        android:strokeColor="#3E2723" />
+    <!-- Hands Folded -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M120,270 Q150,290 180,270 Q150,260 120,270 Z" />
+    <!-- Title Text Overlay Graphic -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M20,20h260v10h-260z M20,370h260v10h-260z" />
+</vector>

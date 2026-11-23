@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="300"
+    android:viewportHeight="300">
+    <!-- Surrealist Desert Sky -->
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M0,0h300v140h-300z" />
+    <!-- Distant Cliffs & Golden Coastline -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M180,90 L300,70 L300,150 L180,140 Z" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M210,85 L300,70 L300,110 Z" />
+    <!-- Barren Desert Ground -->
+    <path
+        android:fillColor="#BCAAA4"
+        android:pathData="M0,140h300v160h-300z" />
+    <!-- Wooden Block Platform -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M0,180 L140,160 L140,300 L0,300 Z" />
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M0,180 L140,160 L140,175 L0,195 Z" />
+    <!-- Dead Tree Branch -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M40,170 L45,100 L70,80 L65,75 L40,95 L35,170 Z" />
+    <!-- Melting Clock 1 (Hanging on Tree Branch) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,90 C45,90 60,105 55,125 C50,140 35,145 35,130 C35,115 25,100 35,90 Z" />
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M37,93 Q48,105 45,120 strokeWidth=2"
+        android:strokeWidth="2"
+        android:strokeColor="#37474F" />
+    <!-- Melting Clock 2 (Draped over Wooden Platform Edge) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,165 C120,160 130,170 120,195 C110,220 75,210 80,190 C85,175 60,170 80,165 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M85,168 C115,164 122,172 115,190 C108,210 80,202 85,185 Z" />
+    <!-- Clock Hands (Dali style bent hands) -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M95,178 L105,182 M95,178 L92,192"
+        android:strokeWidth="2"
+        android:strokeColor="#212121" />
+</vector>
